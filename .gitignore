@@ -1,0 +1,9 @@
+.Rproj.user
+.Rhistory
+.Rdata
+.httr-oauth
+.DS_Store
+ugly_code.R
+fig1.pdf
+SICSS_reproducible_workflow.Rproj
+Data
