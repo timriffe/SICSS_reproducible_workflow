@@ -17,4 +17,16 @@ ggsave("fig1.pdf", fig1)
 
 
 
+# would need to save pdf also here:
+# plot the difference
+e0diff %>% 
+  ggplot(aes(x = year, y = e0diff, color = sex)) +
+  geom_line(size = 1.5) +
+  theme_minimal() +
+  labs(y = "UN - WHO e0 estimates",
+       title = "Large discrepancies in life expectacy estimates for Nigeria")
+
+
+
+
 
